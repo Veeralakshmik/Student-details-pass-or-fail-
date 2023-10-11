@@ -1,0 +1,10 @@
+sname=str(input("enter the student name"));
+sno=int(input("enter the number"));
+group=str(input("Enter the group"));
+s1=int(input("Enter the subject1 marks"));
+s2=int(input("Enter the subject2 marks"));
+s3=int(input("Enter the subject3 marks"));
+if(s1&&s2&&s3>=40):
+    print("pass");
+else:
+    print("Fail");
